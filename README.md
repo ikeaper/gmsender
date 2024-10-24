@@ -9,7 +9,7 @@ $email_pass="xxxx xxxx xxxx xxxx";          // 设置方式：设置->账号和�
 
 $receiver_email = 'xxxx@gmail.com';    // 接收者邮箱
 
-$title='这里是邮件标题' . time();                  // 邮件标题
+$title="这里是邮件标题" . time();        // 邮件标题
 
 $body='<h1>这里是邮件内容</h1>' . date('Y-m-d H:i:s'); //邮件内容
 
